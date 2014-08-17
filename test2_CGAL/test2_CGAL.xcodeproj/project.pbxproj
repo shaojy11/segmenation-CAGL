@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/shaojingyu/Desktop/test2_CGAL\ -f\ \'test2_CGAL.xcodeproj/qt_makeqmake.mak\'";
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1B2BA7ECE4B8860E55505445 = {
+			isa = PBXFileReference;
+			name = "test2_CGAL.pro";
+			path = "test2_CGAL.pro";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"118FCBAABA162BA17933C789");
+			name = "Sources";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"1B2BA7ECE4B8860E55505445");
+			name = "Sources [qmake]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"2B093CA6F071B023A473CED0");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"2B093CA6F071B023A473CED0");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/shaojingyu/Desktop/test2_CGAL\ -f\ \'test2_CGAL.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"2B093CA6F071B023A473CED0");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		78B75B4FD5B5DD697AB61F90 = {
+			isa = PBXFileReference;
+			name = "gmp";
+			path = "/usr/local/Cellar/gmp/6.0.0a/lib/libgmp.10.dylib";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C5C51F203CD660173DCCFDF3 = {
+			fileRef = "78B75B4FD5B5DD697AB61F90";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07D4E70CBF22F33EFF1DDFE2 = {
+			isa = PBXFileReference;
+			name = "CGAL";
+			path = "/usr/local/Cellar/cgal/4.4/lib/libCGAL.10.0.3.dylib";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		59996C8DBCD075388315EAB9 = {
+			fileRef = "07D4E70CBF22F33EFF1DDFE2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		701ACE6913B5ABB17F26DFAF = {
+			isa = PBXFileReference;
+			name = "boost_filesystem";
+			path = "/usr/local/Cellar/boost/1.55.0_2/lib/libboost_filesystem.dylib";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F090E92F4F7B7714A27AB27F = {
+			fileRef = "701ACE6913B5ABB17F26DFAF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		38C5A8FCEAC653C0B28D226C = {
+			isa = PBXFileReference;
+			name = "boost_system";
+			path = "/usr/local/Cellar/boost/1.55.0_2/lib/libboost_system.dylib";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F0D0BC8BA847111826FC73FD = {
+			fileRef = "38C5A8FCEAC653C0B28D226C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2F3EC6130E4444F288B29EC8 = {
+			isa = PBXFileReference;
+			name = "QtXml.framework";
+			path = "/usr/local/Cellar/qt/4.8.6/lib/QtXml.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		6E1DAD065F2255A5A8276BDD = {
+			fileRef = "2F3EC6130E4444F288B29EC8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4CCBAF4988F7A032A2009181 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		325F6FF378F6DD8CF807450C = {
+			fileRef = "4CCBAF4988F7A032A2009181";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		351D87E9B1A518F40DF0E8EF = {
+			isa = PBXFileReference;
+			name = "QtOpenGL.framework";
+			path = "/usr/local/Cellar/qt/4.8.6/lib/QtOpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		3713F7A85132745BD56C9C3E = {
+			fileRef = "351D87E9B1A518F40DF0E8EF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		016B0949A417F07816C9304A = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Cellar/qt/4.8.6/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		40434D2D87215F96B5865B15 = {
+			fileRef = "016B0949A417F07816C9304A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DA18A6831232F53228631AD1 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		BCEF71E1EDFB18DA77DC750B = {
+			fileRef = "DA18A6831232F53228631AD1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6766F86E49E9C8701C8E637 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0C6D4628EE0B0D1479A20551 = {
+			fileRef = "C6766F86E49E9C8701C8E637";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"78B75B4FD5B5DD697AB61F90",
+				"07D4E70CBF22F33EFF1DDFE2",
+				"701ACE6913B5ABB17F26DFAF",
+				"38C5A8FCEAC653C0B28D226C",
+				"2F3EC6130E4444F288B29EC8",
+				"4CCBAF4988F7A032A2009181",
+				"351D87E9B1A518F40DF0E8EF",
+				"016B0949A417F07816C9304A",
+				"DA18A6831232F53228631AD1",
+				"C6766F86E49E9C8701C8E637");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"C5C51F203CD660173DCCFDF3",
+				"59996C8DBCD075388315EAB9",
+				"F090E92F4F7B7714A27AB27F",
+				"F0D0BC8BA847111826FC73FD",
+				"6E1DAD065F2255A5A8276BDD",
+				"325F6FF378F6DD8CF807450C",
+				"3713F7A85132745BD56C9C3E",
+				"40434D2D87215F96B5865B15",
+				"BCEF71E1EDFB18DA77DC750B",
+				"0C6D4628EE0B0D1479A20551");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "test2_CGAL";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		88028C657E4D4225C6609123 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.executable";
+			path = "test2_CGAL";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"88028C657E4D4225C6609123");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		06C93D5BCF680051D9BC812F = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				BUILD_ROOT = "/Users/shaojingyu/Desktop/test2_CGAL";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib",
+						"-L/usr/local/Cellar/cgal/4.4/lib",
+						"-L/usr/local/Cellar/gmp/6.0.0a/lib",
+						"-L/usr/local/Cellar/boost/1.55.0_2/lib",
+						"-L/usr/local/Cellar/mpfr/3.1.2-p8/lib",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-lssl",
+						"-lcrypto",
+						"-L/opt/X11/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "test2_CGAL";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "88028C657E4D4225C6609123";
+			shouldUseHeadermap = 1;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.tool";
+			name = "test2_CGAL";
+			productName = "test2_CGAL";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		4B72B24813252891014BCF61 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "test2_CGAL";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtXml.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtXml.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/include",
+					"/usr/local/Cellar/cgal/4.4/include",
+					"/usr/local/Cellar/gmp/6.0.0a/include",
+					"/usr/local/Cellar/boost/1.55.0_2/include",
+					"/usr/local/Cellar/mpfr/3.1.2-p8/include",
+					"/usr/local/Cellar/qt/4.8.6/include",
+					"/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers/",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Cellar/qt/4.8.6/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/cgal/4.4/lib",
+					"/usr/local/Cellar/gmp/6.0.0a/lib",
+					"/usr/local/Cellar/boost/1.55.0_2/lib",
+					"/usr/local/Cellar/mpfr/3.1.2-p8/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/opt/X11/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib",
+						"-L/usr/local/Cellar/cgal/4.4/lib",
+						"-L/usr/local/Cellar/gmp/6.0.0a/lib",
+						"-L/usr/local/Cellar/boost/1.55.0_2/lib",
+						"-L/usr/local/Cellar/mpfr/3.1.2-p8/lib",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-lssl",
+						"-lcrypto",
+						"-L/opt/X11/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		BEC09A62E69C3553534FF35E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "test2_CGAL";
+				PRODUCT_NAME = "test2_CGAL";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "test2_CGAL";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		D70590BEB531B51029F711BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "test2_CGAL";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtXml.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/lib/QtXml.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.6/include",
+					"/usr/local/Cellar/cgal/4.4/include",
+					"/usr/local/Cellar/gmp/6.0.0a/include",
+					"/usr/local/Cellar/boost/1.55.0_2/include",
+					"/usr/local/Cellar/mpfr/3.1.2-p8/include",
+					"/usr/local/Cellar/qt/4.8.6/include",
+					"/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers/",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Cellar/qt/4.8.6/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/cgal/4.4/lib",
+					"/usr/local/Cellar/gmp/6.0.0a/lib",
+					"/usr/local/Cellar/boost/1.55.0_2/lib",
+					"/usr/local/Cellar/mpfr/3.1.2-p8/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/opt/X11/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib",
+					"/usr/local/Cellar/qt/4.8.6/lib");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib",
+						"-L/usr/local/Cellar/cgal/4.4/lib",
+						"-L/usr/local/Cellar/gmp/6.0.0a/lib",
+						"-L/usr/local/Cellar/boost/1.55.0_2/lib",
+						"-L/usr/local/Cellar/mpfr/3.1.2-p8/lib",
+						"-L/usr/local/Cellar/qt/4.8.6/lib",
+						"-lssl",
+						"-lcrypto",
+						"-L/opt/X11/lib",
+						"-F/usr/local/Cellar/qt/4.8.6/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		8C7174830A1E4DCBA0332EC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "test2_CGAL";
+				PRODUCT_NAME = "test2_CGAL";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "test2_CGAL";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		CC82A9286117DFED018F418F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"4B72B24813252891014BCF61",
+				"D70590BEB531B51029F711BB");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		17B3380A4D6A7D415E7F2E1E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"BEC09A62E69C3553534FF35E",
+				"8C7174830A1E4DCBA0332EC1");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "CC82A9286117DFED018F418F";
+			projectDirPath = "";
+			targets = (
+				"06C93D5BCF680051D9BC812F");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
